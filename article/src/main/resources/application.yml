@@ -1,0 +1,9 @@
+server.port: 8081
+spring:
+   application:
+     name: article-service
+   datasource:
+     driver-class-name: com.mysql.cj.jdbc.Driver
+     url: jdbc:mysql://localhost:3306/Dev
+     username: root
+     password: akhil
