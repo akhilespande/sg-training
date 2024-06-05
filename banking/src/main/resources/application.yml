@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: banking-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/Dev
+    username: root
+    password: akhil
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
