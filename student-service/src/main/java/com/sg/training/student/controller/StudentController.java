@@ -7,12 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping(("v1/api/students"))
+@RequestMapping("v1/api/students")
 public class StudentController {
 
     @GetMapping("/student/{id}")
-    public Student getStudentById(@PathVariable Integer id){
+    public Student getStudentById(@PathVariable Integer id) {
         return new Student(id, "John Smith");
     }
-
 }
+
